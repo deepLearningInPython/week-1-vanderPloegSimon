@@ -1,5 +1,6 @@
 import numpy
 
+
 # Follow the tasks below to practice basic Python concepts.
 # Write your code in between the dashed lines.
 # Don't import additional packages. Numpy suffices.
@@ -13,8 +14,11 @@ import numpy
 # Your code here:
 # -----------------------------------------------
 
-def step
-
+def step(x):
+    if x > 0:
+        return 1
+    else:
+        return -1
 
 # -----------------------------------------------
 
