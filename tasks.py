@@ -22,7 +22,6 @@ def step(x):
 
 # -----------------------------------------------
 
-
 # Task 2:
 # Instructions:
 #Write a function that takes in two arguments: a numpy array, and an integer (call argument "cutoff" and set default to 0).
@@ -32,8 +31,8 @@ def step(x):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu
-
+def ReLu(arr, cutoff=0):
+    return np.maximum(arr, cutoff)
 
 # -----------------------------------------------
 
@@ -48,7 +47,9 @@ def ReLu
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer
+def neural_net_layer(matrix, vector):
+  result = np.dot(matrix, vector)
+  return ReLu(result)
 
 
 # ------------------------------------------
