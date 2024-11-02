@@ -1,4 +1,4 @@
-import numpy
+import numpy as np
 
 
 # Follow the tasks below to practice basic Python concepts.
@@ -32,7 +32,7 @@ def step(x):
 # Your code here:
 # -----------------------------------------------
 def ReLu(arr, cutoff=0):
-    return numpy.maximum(arr, cutoff)
+    return np.maximum(arr, cutoff)
 
 # -----------------------------------------------
 
