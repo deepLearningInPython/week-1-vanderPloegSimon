@@ -14,8 +14,8 @@ import numpy as np
 # Your code here:
 # -----------------------------------------------
 
-def step(x):
-    if x > 0:
+def step(y):
+    if y > 0:
         return 1
     else:
         return -1
